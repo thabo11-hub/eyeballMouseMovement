@@ -20,16 +20,20 @@
         min-height: 100vh;
         position: relative;
       }
+      #eyes,
+      #eyes img {
+        position: absolute;
+      }
     </style>
   </head>
   <body>
     <main>
-      <img id="anchor" src="rick_and_morty_2013.jpg" alt="" />
+      <img id="anchor" src="rick_and_morty_2013.jpg" />
       <div id="eyes">
-        <img src="eye.png" class="eye" />
-        <img src="eye.png" class="eye" />
-        <img src="eye.png" class="eye" />
-        <img src="eye.png" class="eye" />
+        <img src="eye.png" class="eye" style="top: 5px; right: 2px" />
+        <img src="eye.png" class="eye" style="top: 7px; right: 9px" />
+        <img src="eye.png" class="eye" style="bottom: 5px; right: 15px" />
+        <img src="eye.png" class="eye" style="bottom: 8px; right: 4px" />
       </div>
     </main>
   </body>
